@@ -1,6 +1,6 @@
 # FlightPhsyc
 
-FlightPhsyc is C++ and Arduino based flight software which used in many sLab vehicles, which is programmable with ElperOXr to work with any sLab Avionics Board.
+FlightPhsyc is C++ and Arduino based flight software which used in many sLab vehicles, which is programmable easily made to work with every sLab Avionics Board.
 
 **Vehicles Supports :**
 - sLab Marvin 0 Block Rocket (Marvin N-xx) using ElperScale or ElperLab using (ATtiny10 or ATtiny85).
@@ -19,12 +19,6 @@ FlightPhsyc is C++ and Arduino based flight software which used in many sLab veh
 **Features :**
 > it's basicly a software which work with sLab Elper Avionics, help the code to make it run easier and faster, it also fix the incorrect flight plan and other errors. Need to be use with AvionicsObserver and it's
 also have many other features eg. Timer, Autopilot, Inspecting, Visualization and Flight Reviewer.
-
-**How To Use**
-Import FlightPhsyc into AvionicsObserver, doesn't require any download.
-> use import functions to import the FlightPhsyc by using "import internal.flightphsyc.all @ flightphsyc"
-> before to start it we need to configurate it first by using runmode command "runmode flightphsyc(<BOARD>, <MODE>, .CFG_BYP);" 
-and to start it just use "flightphsyc();"
 
 # Release
 
